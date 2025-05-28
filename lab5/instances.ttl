@@ -1,0 +1,305 @@
+@base <http://dreamsellers.org/> .
+@prefix : <http://dreamsellers.org/dreams#> .
+@prefix ex: <http://dreamsellers.org/dreams/instances/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+
+### Vendors ###
+ex:vendor1 a :Vendor ;
+    :vendorName "DreamWeavers Inc." .
+
+ex:vendor2 a :Vendor ;
+    :vendorName "Lucid Adventures Co." .
+
+ex:vendor3 a :Vendor ;
+    :vendorName "Nocturnal Visions LLC" .
+
+ex:vendor4 a :Vendor ;
+    :vendorName "Oneironautics Collective" .
+
+ex:vendor5 a :Vendor ;
+    :vendorName "Morpheus Enterprises" .
+
+
+
+### Dream Offers ###
+ex:offer1 a :DreamOffer ;
+    :name "Epic Flying Adventure" ;
+    :description "Experience unlimited flight through surreal landscapes" ;
+    :price 299 ;
+    :currency "USD" ;
+    :quantity 15 ;
+    :rating 4.8 ;
+    :offeredBy ex:vendor1 .
+
+ex:offer2 a :DreamOffer ;
+    :name "Lucid City Exploration" ;
+    :description "Control your dream in a customizable city environment" ;
+    :price 199 ;
+    :currency "USD" ;
+    :quantity 8 ;
+    :rating 4.9 ;
+    :offeredBy ex:vendor2 .
+
+ex:offer3 a :DreamOffer ;
+    :name "Celestial Symphony" ;
+    :description "Musical journey among the stars with enhanced synesthesia" ;
+    :price 349 ;
+    :currency "EUR" ;
+    :quantity 5 ;
+    :rating 4.7 ;
+    :offeredBy ex:vendor3 .
+
+# Affordable options
+ex:offer4 a :DreamOffer ;
+    :name "Basic Flying Package" ;
+    :description "Simple flying experience with limited control" ;
+    :price 99 ;
+    :currency "USD" ;
+    :quantity 25 ;
+    :rating 3.9 ;
+    :offeredBy ex:vendor1 .
+
+ex:offer5 a :DreamOffer ;
+    :name "Dream Journal Starter" ;
+    :description "Enhance dream recall and basic lucidity" ;
+    :price 49 ;
+    :currency "USD" ;
+    :quantity 50 ;
+    :rating 4.2 ;
+    :offeredBy ex:vendor4 .
+
+ex:offer6 a :DreamOffer ;
+    :name "Historical Reenactment" ;
+    :description "Live through famous historical moments" ;
+    :price 249 ;
+    :currency "GBP" ;
+    :quantity 10 ;
+    :rating 4.5 ;
+    :offeredBy ex:vendor5 .
+
+ex:offer7 a :DreamOffer ;
+    :name "Underwater Metropolis" ;
+    :description "Explore a thriving civilization beneath the waves" ;
+    :price 279 ;
+    :currency "USD" ;
+    :quantity 7 ;
+    :rating 4.6 ;
+    :offeredBy ex:vendor3 .
+
+ex:offer8 a :DreamOffer ;
+    :name "Shared Dream Experience" ;
+    :description "Connect with 2-4 other dreamers in a shared space" ;
+    :price 599 ;
+    :currency "USD" ;
+    :quantity 3 ;
+    :rating 4.4 ;
+    :offeredBy ex:vendor2 .
+
+ex:offer9 a :DreamOffer ;
+    :name "Dream Artist Package" ;
+    :description "Create art directly from your dream experiences" ;
+    :price 179 ;
+    :currency "EUR" ;
+    :quantity 12 ;
+    :rating 4.1 ;
+    :offeredBy ex:vendor4 .
+
+ex:offer10 a :DreamOffer ;
+    :name "Time Dilation Experiment" ;
+    :description "Experience compressed or expanded time perception" ;
+    :price 399 ;
+    :currency "USD" ;
+    :quantity 4 ;
+    :rating 4.7 ;
+    :offeredBy ex:vendor5 .
+
+ex:offer11 a :DreamOffer ;
+    :name "Elemental Mastery" ;
+    :description "Control fire, water, earth, and air in your dreams" ;
+    :price 229 ;
+    :currency "USD" ;
+    :quantity 9 ;
+    :rating 4.3 ;
+    :offeredBy ex:vendor1 .
+
+ex:offer12 a :DreamOffer ;
+    :name "Mythical Creatures Safari" ;
+    :description "Encounter and interact with legendary beings" ;
+    :price 259 ;
+    :currency "GBP" ;
+    :quantity 6 ;
+    :rating 4.5 ;
+    :offeredBy ex:vendor3 .
+
+ex:offer13 a :DreamOffer ;
+    :name "Parallel Universe Tour" ;
+    :description "Explore alternate versions of yourself in quantum realities" ;
+    :price 449 ;
+    :currency "USD" ;
+    :quantity 5 ;
+    :rating 4.6 ;
+    :offeredBy ex:vendor5 .
+
+ex:offer14 a :DreamOffer ;
+    :name "Memory Palace Construction" ;
+    :description "Build an infinite mental library for perfect recall" ;
+    :price 189 ;
+    :currency "EUR" ;
+    :quantity 18 ;
+    :rating 4.3 ;
+    :offeredBy ex:vendor4 .
+
+ex:offer15 a :DreamOffer ;
+    :name "Collective Consciousness Connection" ;
+    :description "Tap into the shared dreamspace of all humanity" ;
+    :price 399 ;
+    :currency "USD" ;
+    :quantity 4 ;
+    :rating 4.7 ;
+    :offeredBy ex:vendor3 .
+
+ex:offer16 a :DreamOffer ;
+    :name "Ancestral Wisdom Journey" ;
+    :description "Receive guidance from ancestors in dream state" ;
+    :price 279 ;
+    :currency "GBP" ;
+    :quantity 8 ;
+    :rating 4.4 ;
+    :offeredBy ex:vendor2 .
+
+ex:offer17 a :DreamOffer ;
+    :name "Zero-Gravity Ballet" ;
+    :description "Perform perfect dance maneuvers in weightlessness" ;
+    :price 329 ;
+    :currency "USD" ;
+    :quantity 6 ;
+    :rating 4.8 ;
+    :offeredBy ex:vendor1 .
+
+ex:offer18 a :DreamOffer ;
+    :name "Time Traveler's Lounge" ;
+    :description "Socialize with visitors from different eras" ;
+    :price 369 ;
+    :currency "USD" ;
+    :quantity 3 ;
+    :rating 4.9 ;
+    :offeredBy ex:vendor5 .
+
+ex:offer19 a :DreamOffer ;
+    :name "Bilingual Dream Immersion" ;
+    :description "Fluently speak and understand any language" ;
+    :price 219 ;
+    :currency "EUR" ;
+    :quantity 15 ;
+    :rating 4.2 ;
+    :offeredBy ex:vendor4 .
+
+ex:offer20 a :DreamOffer ;
+    :name "Architect's Paradise" ;
+    :description "Design and inhabit impossible structures" ;
+    :price 289 ;
+    :currency "USD" ;
+    :quantity 9 ;
+    :rating 4.5 ;
+    :offeredBy ex:vendor3 .
+
+ex:offer21 a :DreamOffer ;
+    :name "Giant's Perspective" ;
+    :description "Experience the world from 100-foot height" ;
+    :price 179 ;
+    :currency "USD" ;
+    :quantity 12 ;
+    :rating 4.1 ;
+    :offeredBy ex:vendor2 .
+
+ex:offer22 a :DreamOffer ;
+    :name "Microscopic Odyssey" ;
+    :description "Explore the quantum realm at atomic scale" ;
+    :price 349 ;
+    :currency "USD" ;
+    :quantity 5 ;
+    :rating 4.7 ;
+    :offeredBy ex:vendor1 .
+
+ex:offer23 a :DreamOffer ;
+    :name "Emotion Alchemy" ;
+    :description "Transform negative emotions into creative energy" ;
+    :price 239 ;
+    :currency "GBP" ;
+    :quantity 10 ;
+    :rating 4.3 ;
+    :offeredBy ex:vendor5 .
+
+ex:offer24 a :DreamOffer ;
+    :name "Celestial Navigation" ;
+    :description "Sail cosmic currents using star constellations" ;
+    :price 419 ;
+    :currency "USD" ;
+    :quantity 4 ;
+    :rating 4.8 ;
+    :offeredBy ex:vendor4 .
+
+ex:offer25 a :DreamOffer ;
+    :name "Dream-to-Reality Translation" ;
+    :description "Bring dream objects into waking consciousness" ;
+    :price 499 ;
+    :currency "USD" ;
+    :quantity 2 ;
+    :rating 4.9 ;
+    :offeredBy ex:vendor3 .
+
+ex:offer26 a :DreamOffer ;
+    :name "Elemental Avatar" ;
+    :description "Merge with pure fire/water/air/earth energy" ;
+    :price 269 ;
+    :currency "EUR" ;
+    :quantity 7 ;
+    :rating 4.6 ;
+    :offeredBy ex:vendor2 .
+
+ex:offer27 a :DreamOffer ;
+    :name "Collective Problem Solving" ;
+    :description "Collaborate with dreamers worldwide on challenges" ;
+    :price 389 ;
+    :currency "USD" ;
+    :quantity 5 ;
+    :rating 4.4 ;
+    :offeredBy ex:vendor1 .
+
+ex:offer28 a :DreamOffer ;
+    :name "Precognitive Training" ;
+    :description "Develop genuine future-seeing abilities" ;
+    :price 579 ;
+    :currency "USD" ;
+    :quantity 3 ;
+    :rating 4.7 ;
+    :offeredBy ex:vendor5 .
+
+ex:offer29 a :DreamOffer ;
+    :name "Mythic Hero Journey" ;
+    :description "Live through archetypal hero's journey scenarios" ;
+    :price 319 ;
+    :currency "GBP" ;
+    :quantity 6 ;
+    :rating 4.5 ;
+    :offeredBy ex:vendor4 .
+
+ex:offer30 a :DreamOffer ;
+    :name "Digital Dream Interface" ;
+    :description "Experience dreams with UI elements and controls" ;
+    :price 429 ;
+    :currency "USD" ;
+    :quantity 4 ;
+    :rating 4.8 ;
+    :offeredBy ex:vendor3 .
+
+
+
+### Vendor Offers Relationships ###
+ex:vendor1 :offers ex:offer1, ex:offer4, ex:offer11, ex:offer17, ex:offer22, ex:offer27 .
+ex:vendor2 :offers ex:offer2, ex:offer8, ex:offer16, ex:offer21, ex:offer26 .
+ex:vendor3 :offers ex:offer3, ex:offer7, ex:offer12, ex:offer15, ex:offer20, ex:offer25, ex:offer30 .
+ex:vendor4 :offers ex:offer5, ex:offer9, ex:offer14, ex:offer19, ex:offer24, ex:offer29 .
+ex:vendor5 :offers ex:offer6, ex:offer10, ex:offer13, ex:offer18, ex:offer23, ex:offer28 .

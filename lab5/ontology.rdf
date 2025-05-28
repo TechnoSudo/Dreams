@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns="http://dreamsellers.org/dreams#" xml:base="http://dreamsellers.org/dreams">
+  <rdf:Description rdf:about="#DreamOffer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Vendor">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#name">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#name">
+    <rdfs:domain rdf:resource="#DreamOffer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#name">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#description">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#description">
+    <rdfs:domain rdf:resource="#DreamOffer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#description">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#price">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#price">
+    <rdfs:domain rdf:resource="#DreamOffer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#price">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#currency">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#currency">
+    <rdfs:domain rdf:resource="#DreamOffer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#currency">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#quantity">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#quantity">
+    <rdfs:domain rdf:resource="#DreamOffer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#quantity">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#rating">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#rating">
+    <rdfs:domain rdf:resource="#DreamOffer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#rating">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#offeredBy">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#offeredBy">
+    <rdfs:domain rdf:resource="#DreamOffer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#offeredBy">
+    <rdfs:range rdf:resource="#Vendor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#vendorName">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#vendorName">
+    <rdfs:domain rdf:resource="#Vendor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#vendorName">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#offers">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#offers">
+    <rdfs:domain rdf:resource="#Vendor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#offers">
+    <rdfs:range rdf:resource="#DreamOffer"/>
+  </rdf:Description>
+</rdf:RDF>

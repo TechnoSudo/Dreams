@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:ex="http://dreamsellers.org/dreams/instances/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns="http://dreamsellers.org/dreams#" xml:base="http://dreamsellers.org/dreams">
+  <rdf:Description rdf:about="dreams/instances/vendor1">
+    <rdf:type rdf:resource="#Vendor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/vendor1">
+    <vendorName>DreamWeavers Inc.</vendorName>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/vendor2">
+    <rdf:type rdf:resource="#Vendor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/vendor2">
+    <vendorName>Lucid Adventures Co.</vendorName>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/vendor3">
+    <rdf:type rdf:resource="#Vendor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/vendor3">
+    <vendorName>Nocturnal Visions LLC</vendorName>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/vendor4">
+    <rdf:type rdf:resource="#Vendor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/vendor4">
+    <vendorName>Oneironautics Collective</vendorName>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/vendor5">
+    <rdf:type rdf:resource="#Vendor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/vendor5">
+    <vendorName>Morpheus Enterprises</vendorName>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer1">
+    <rdf:type rdf:resource="#DreamOffer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer1">
+    <name>Epic Flying Adventure</name>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer1">
+    <description>Experience unlimited flight through surreal landscapes</description>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer1">
+    <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">299</price>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer1">
+    <currency>USD</currency>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer1">
+    <quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</quantity>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer1">
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.8</rating>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer1">
+    <offeredBy rdf:resource="dreams/instances/vendor1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer2">
+    <rdf:type rdf:resource="#DreamOffer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer2">
+    <name>Lucid City Exploration</name>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer2">
+    <description>Control your dream in a customizable city environment</description>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer2">
+    <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">199</price>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer2">
+    <currency>USD</currency>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer2">
+    <quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</quantity>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer2">
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.9</rating>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer2">
+    <offeredBy rdf:resource="dreams/instances/vendor2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer3">
+    <rdf:type rdf:resource="#DreamOffer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer3">
+    <name>Celestial Symphony</name>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer3">
+    <description>Musical journey among the stars with enhanced synesthesia</description>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer3">
+    <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">349</price>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer3">
+    <currency>EUR</currency>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer3">
+    <quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</quantity>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer3">
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.7</rating>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer3">
+    <offeredBy rdf:resource="dreams/instances/vendor3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer4">
+    <rdf:type rdf:resource="#DreamOffer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer4">
+    <name>Basic Flying Package</name>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer4">
+    <description>Simple flying experience with limited control</description>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer4">
+    <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">99</price>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer4">
+    <currency>USD</currency>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer4">
+    <quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</quantity>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer4">
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.9</rating>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer4">
+    <offeredBy rdf:resource="dreams/instances/vendor1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer5">
+    <rdf:type rdf:resource="#DreamOffer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer5">
+    <name>Dream Journal Starter</name>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer5">
+    <description>Enhance dream recall and basic lucidity</description>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer5">
+    <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49</price>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer5">
+    <currency>USD</currency>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer5">
+    <quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</quantity>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer5">
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.2</rating>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer5">
+    <offeredBy rdf:resource="dreams/instances/vendor4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer6">
+    <rdf:type rdf:resource="#DreamOffer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer6">
+    <name>Historical Reenactment</name>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer6">
+    <description>Live through famous historical moments</description>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer6">
+    <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">249</price>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer6">
+    <currency>GBP</currency>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer6">
+    <quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</quantity>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer6">
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.5</rating>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer6">
+    <offeredBy rdf:resource="dreams/instances/vendor5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer7">
+    <rdf:type rdf:resource="#DreamOffer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer7">
+    <name>Underwater Metropolis</name>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer7">
+    <description>Explore a thriving civilization beneath the waves</description>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer7">
+    <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">279</price>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer7">
+    <currency>USD</currency>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer7">
+    <quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</quantity>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer7">
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.6</rating>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer7">
+    <offeredBy rdf:resource="dreams/instances/vendor3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer8">
+    <rdf:type rdf:resource="#DreamOffer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer8">
+    <name>Shared Dream Experience</name>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer8">
+    <description>Connect with 2-4 other dreamers in a shared space</description>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer8">
+    <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">599</price>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer8">
+    <currency>USD</currency>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer8">
+    <quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</quantity>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer8">
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.4</rating>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer8">
+    <offeredBy rdf:resource="dreams/instances/vendor2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer9">
+    <rdf:type rdf:resource="#DreamOffer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer9">
+    <name>Dream Artist Package</name>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer9">
+    <description>Create art directly from your dream experiences</description>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer9">
+    <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">179</price>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer9">
+    <currency>EUR</currency>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer9">
+    <quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</quantity>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer9">
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.1</rating>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer9">
+    <offeredBy rdf:resource="dreams/instances/vendor4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer10">
+    <rdf:type rdf:resource="#DreamOffer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer10">
+    <name>Time Dilation Experiment</name>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer10">
+    <description>Experience compressed or expanded time perception</description>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer10">
+    <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">399</price>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer10">
+    <currency>USD</currency>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer10">
+    <quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</quantity>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer10">
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.7</rating>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer10">
+    <offeredBy rdf:resource="dreams/instances/vendor5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer11">
+    <rdf:type rdf:resource="#DreamOffer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer11">
+    <name>Elemental Mastery</name>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer11">
+    <description>Control fire, water, earth, and air in your dreams</description>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer11">
+    <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">229</price>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer11">
+    <currency>USD</currency>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer11">
+    <quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</quantity>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer11">
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.3</rating>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer11">
+    <offeredBy rdf:resource="dreams/instances/vendor1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer12">
+    <rdf:type rdf:resource="#DreamOffer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer12">
+    <name>Mythical Creatures Safari</name>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer12">
+    <description>Encounter and interact with legendary beings</description>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer12">
+    <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">259</price>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer12">
+    <currency>GBP</currency>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer12">
+    <quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</quantity>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer12">
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.5</rating>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer12">
+    <offeredBy rdf:resource="dreams/instances/vendor3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer13">
+    <rdf:type rdf:resource="#DreamOffer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer13">
+    <name>Parallel Universe Tour</name>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer13">
+    <description>Explore alternate versions of yourself in quantum realities</description>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer13">
+    <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">449</price>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer13">
+    <currency>USD</currency>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer13">
+    <quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</quantity>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer13">
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.6</rating>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer13">
+    <offeredBy rdf:resource="dreams/instances/vendor5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer14">
+    <rdf:type rdf:resource="#DreamOffer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer14">
+    <name>Memory Palace Construction</name>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer14">
+    <description>Build an infinite mental library for perfect recall</description>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer14">
+    <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">189</price>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer14">
+    <currency>EUR</currency>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer14">
+    <quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</quantity>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer14">
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.3</rating>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer14">
+    <offeredBy rdf:resource="dreams/instances/vendor4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer15">
+    <rdf:type rdf:resource="#DreamOffer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer15">
+    <name>Collective Consciousness Connection</name>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer15">
+    <description>Tap into the shared dreamspace of all humanity</description>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer15">
+    <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">399</price>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer15">
+    <currency>USD</currency>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer15">
+    <quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</quantity>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer15">
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.7</rating>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer15">
+    <offeredBy rdf:resource="dreams/instances/vendor3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer16">
+    <rdf:type rdf:resource="#DreamOffer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer16">
+    <name>Ancestral Wisdom Journey</name>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer16">
+    <description>Receive guidance from ancestors in dream state</description>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer16">
+    <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">279</price>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer16">
+    <currency>GBP</currency>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer16">
+    <quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</quantity>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer16">
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.4</rating>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer16">
+    <offeredBy rdf:resource="dreams/instances/vendor2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer17">
+    <rdf:type rdf:resource="#DreamOffer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer17">
+    <name>Zero-Gravity Ballet</name>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer17">
+    <description>Perform perfect dance maneuvers in weightlessness</description>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer17">
+    <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">329</price>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer17">
+    <currency>USD</currency>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer17">
+    <quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</quantity>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer17">
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.8</rating>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer17">
+    <offeredBy rdf:resource="dreams/instances/vendor1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer18">
+    <rdf:type rdf:resource="#DreamOffer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer18">
+    <name>Time Traveler's Lounge</name>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer18">
+    <description>Socialize with visitors from different eras</description>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer18">
+    <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">369</price>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer18">
+    <currency>USD</currency>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer18">
+    <quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</quantity>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer18">
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.9</rating>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer18">
+    <offeredBy rdf:resource="dreams/instances/vendor5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer19">
+    <rdf:type rdf:resource="#DreamOffer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer19">
+    <name>Bilingual Dream Immersion</name>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer19">
+    <description>Fluently speak and understand any language</description>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer19">
+    <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">219</price>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer19">
+    <currency>EUR</currency>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer19">
+    <quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</quantity>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer19">
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.2</rating>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer19">
+    <offeredBy rdf:resource="dreams/instances/vendor4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer20">
+    <rdf:type rdf:resource="#DreamOffer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer20">
+    <name>Architect's Paradise</name>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer20">
+    <description>Design and inhabit impossible structures</description>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer20">
+    <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">289</price>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer20">
+    <currency>USD</currency>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer20">
+    <quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</quantity>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer20">
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.5</rating>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer20">
+    <offeredBy rdf:resource="dreams/instances/vendor3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer21">
+    <rdf:type rdf:resource="#DreamOffer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer21">
+    <name>Giant's Perspective</name>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer21">
+    <description>Experience the world from 100-foot height</description>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer21">
+    <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">179</price>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer21">
+    <currency>USD</currency>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer21">
+    <quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</quantity>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer21">
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.1</rating>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer21">
+    <offeredBy rdf:resource="dreams/instances/vendor2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer22">
+    <rdf:type rdf:resource="#DreamOffer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer22">
+    <name>Microscopic Odyssey</name>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer22">
+    <description>Explore the quantum realm at atomic scale</description>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer22">
+    <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">349</price>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer22">
+    <currency>USD</currency>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer22">
+    <quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</quantity>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer22">
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.7</rating>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer22">
+    <offeredBy rdf:resource="dreams/instances/vendor1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer23">
+    <rdf:type rdf:resource="#DreamOffer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer23">
+    <name>Emotion Alchemy</name>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer23">
+    <description>Transform negative emotions into creative energy</description>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer23">
+    <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">239</price>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer23">
+    <currency>GBP</currency>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer23">
+    <quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</quantity>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer23">
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.3</rating>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer23">
+    <offeredBy rdf:resource="dreams/instances/vendor5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer24">
+    <rdf:type rdf:resource="#DreamOffer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer24">
+    <name>Celestial Navigation</name>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer24">
+    <description>Sail cosmic currents using star constellations</description>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer24">
+    <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">419</price>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer24">
+    <currency>USD</currency>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer24">
+    <quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</quantity>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer24">
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.8</rating>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer24">
+    <offeredBy rdf:resource="dreams/instances/vendor4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer25">
+    <rdf:type rdf:resource="#DreamOffer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer25">
+    <name>Dream-to-Reality Translation</name>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer25">
+    <description>Bring dream objects into waking consciousness</description>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer25">
+    <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">499</price>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer25">
+    <currency>USD</currency>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer25">
+    <quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</quantity>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer25">
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.9</rating>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer25">
+    <offeredBy rdf:resource="dreams/instances/vendor3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer26">
+    <rdf:type rdf:resource="#DreamOffer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer26">
+    <name>Elemental Avatar</name>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer26">
+    <description>Merge with pure fire/water/air/earth energy</description>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer26">
+    <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">269</price>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer26">
+    <currency>EUR</currency>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer26">
+    <quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</quantity>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer26">
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.6</rating>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer26">
+    <offeredBy rdf:resource="dreams/instances/vendor2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer27">
+    <rdf:type rdf:resource="#DreamOffer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer27">
+    <name>Collective Problem Solving</name>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer27">
+    <description>Collaborate with dreamers worldwide on challenges</description>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer27">
+    <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">389</price>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer27">
+    <currency>USD</currency>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer27">
+    <quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</quantity>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer27">
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.4</rating>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer27">
+    <offeredBy rdf:resource="dreams/instances/vendor1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer28">
+    <rdf:type rdf:resource="#DreamOffer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer28">
+    <name>Precognitive Training</name>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer28">
+    <description>Develop genuine future-seeing abilities</description>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer28">
+    <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">579</price>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer28">
+    <currency>USD</currency>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer28">
+    <quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</quantity>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer28">
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.7</rating>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer28">
+    <offeredBy rdf:resource="dreams/instances/vendor5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer29">
+    <rdf:type rdf:resource="#DreamOffer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer29">
+    <name>Mythic Hero Journey</name>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer29">
+    <description>Live through archetypal hero's journey scenarios</description>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer29">
+    <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">319</price>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer29">
+    <currency>GBP</currency>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer29">
+    <quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</quantity>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer29">
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.5</rating>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer29">
+    <offeredBy rdf:resource="dreams/instances/vendor4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer30">
+    <rdf:type rdf:resource="#DreamOffer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer30">
+    <name>Digital Dream Interface</name>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer30">
+    <description>Experience dreams with UI elements and controls</description>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer30">
+    <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">429</price>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer30">
+    <currency>USD</currency>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer30">
+    <quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</quantity>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer30">
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.8</rating>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/offer30">
+    <offeredBy rdf:resource="dreams/instances/vendor3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/vendor1">
+    <offers rdf:resource="dreams/instances/offer1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/vendor1">
+    <offers rdf:resource="dreams/instances/offer4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/vendor1">
+    <offers rdf:resource="dreams/instances/offer11"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/vendor1">
+    <offers rdf:resource="dreams/instances/offer17"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/vendor1">
+    <offers rdf:resource="dreams/instances/offer22"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/vendor1">
+    <offers rdf:resource="dreams/instances/offer27"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/vendor2">
+    <offers rdf:resource="dreams/instances/offer2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/vendor2">
+    <offers rdf:resource="dreams/instances/offer8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/vendor2">
+    <offers rdf:resource="dreams/instances/offer16"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/vendor2">
+    <offers rdf:resource="dreams/instances/offer21"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/vendor2">
+    <offers rdf:resource="dreams/instances/offer26"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/vendor3">
+    <offers rdf:resource="dreams/instances/offer3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/vendor3">
+    <offers rdf:resource="dreams/instances/offer7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/vendor3">
+    <offers rdf:resource="dreams/instances/offer12"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/vendor3">
+    <offers rdf:resource="dreams/instances/offer15"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/vendor3">
+    <offers rdf:resource="dreams/instances/offer20"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/vendor3">
+    <offers rdf:resource="dreams/instances/offer25"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/vendor3">
+    <offers rdf:resource="dreams/instances/offer30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/vendor4">
+    <offers rdf:resource="dreams/instances/offer5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/vendor4">
+    <offers rdf:resource="dreams/instances/offer9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/vendor4">
+    <offers rdf:resource="dreams/instances/offer14"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/vendor4">
+    <offers rdf:resource="dreams/instances/offer19"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/vendor4">
+    <offers rdf:resource="dreams/instances/offer24"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/vendor4">
+    <offers rdf:resource="dreams/instances/offer29"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/vendor5">
+    <offers rdf:resource="dreams/instances/offer6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/vendor5">
+    <offers rdf:resource="dreams/instances/offer10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/vendor5">
+    <offers rdf:resource="dreams/instances/offer13"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/vendor5">
+    <offers rdf:resource="dreams/instances/offer18"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/vendor5">
+    <offers rdf:resource="dreams/instances/offer23"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="dreams/instances/vendor5">
+    <offers rdf:resource="dreams/instances/offer28"/>
+  </rdf:Description>
+</rdf:RDF>

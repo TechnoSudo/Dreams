@@ -1,0 +1,17 @@
+services:
+
+  test:
+    container_name: "wrc-test"
+    image: wrc-rest-test:latest
+    ports:
+      - "$BACKEND_TEST_PORT:8080"
+    networks:
+      - wrcNetwork
+
+networks:
+  wrcNetwork:
+    name: wrcNetwork
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 10.0.2.0/24

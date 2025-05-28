@@ -1,0 +1,410 @@
+{
+  "triples" : [
+    {
+      "subject" : {
+        "value" : "#DreamOffer",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "http://www.w3.org/2000/01/rdf-schema#Class",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "#Vendor",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "http://www.w3.org/2000/01/rdf-schema#Class",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "#name",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "#name",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/2000/01/rdf-schema#domain",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "#DreamOffer",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "#name",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/2000/01/rdf-schema#range",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "http://www.w3.org/2001/XMLSchema#string",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "#description",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "#description",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/2000/01/rdf-schema#domain",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "#DreamOffer",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "#description",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/2000/01/rdf-schema#range",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "http://www.w3.org/2001/XMLSchema#string",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "#price",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "#price",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/2000/01/rdf-schema#domain",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "#DreamOffer",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "#price",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/2000/01/rdf-schema#range",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "#currency",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "#currency",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/2000/01/rdf-schema#domain",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "#DreamOffer",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "#currency",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/2000/01/rdf-schema#range",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "http://www.w3.org/2001/XMLSchema#string",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "#quantity",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "#quantity",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/2000/01/rdf-schema#domain",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "#DreamOffer",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "#quantity",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/2000/01/rdf-schema#range",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "#rating",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "#rating",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/2000/01/rdf-schema#domain",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "#DreamOffer",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "#rating",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/2000/01/rdf-schema#range",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "#offeredBy",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "#offeredBy",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/2000/01/rdf-schema#domain",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "#DreamOffer",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "#offeredBy",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/2000/01/rdf-schema#range",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "#Vendor",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "#vendorName",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "#vendorName",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/2000/01/rdf-schema#domain",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "#Vendor",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "#vendorName",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/2000/01/rdf-schema#range",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "http://www.w3.org/2001/XMLSchema#string",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "#offers",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "#offers",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/2000/01/rdf-schema#domain",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "#Vendor",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "#offers",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/2000/01/rdf-schema#range",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "#DreamOffer",
+        "type" : "uri"
+        }
+      }
+    ]
+  }

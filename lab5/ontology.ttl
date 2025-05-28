@@ -1,0 +1,49 @@
+@prefix : <http://dreamsellers.org/dreams#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+
+:DreamOffer a rdfs:Class .
+:Vendor a rdfs:Class .
+
+
+
+:name a rdf:Property ;
+    rdfs:domain :DreamOffer ;
+    rdfs:range xsd:string .
+
+:description a rdf:Property ;
+    rdfs:domain :DreamOffer ;
+    rdfs:range xsd:string .
+
+:price a rdf:Property ;
+    rdfs:domain :DreamOffer ;
+    rdfs:range xsd:integer .
+
+:currency a rdf:Property ;
+    rdfs:domain :DreamOffer ;
+    rdfs:range xsd:string .
+
+:quantity a rdf:Property ;
+    rdfs:domain :DreamOffer ;
+    rdfs:range xsd:integer .
+
+:rating a rdf:Property ;
+    rdfs:domain :DreamOffer ;
+    rdfs:range xsd:decimal .
+
+:offeredBy a rdf:Property ;
+    rdfs:domain :DreamOffer ;
+    rdfs:range :Vendor .
+
+
+
+:vendorName a rdf:Property ;
+    rdfs:domain :Vendor ;
+    rdfs:range xsd:string .
+
+:offers a rdf:Property ;
+    rdfs:domain :Vendor ;
+    rdfs:range :DreamOffer .

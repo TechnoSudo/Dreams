@@ -1,0 +1,4199 @@
+{
+  "triples" : [
+    {
+      "subject" : {
+        "value" : "dreams/instances/vendor1",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "#Vendor",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/vendor1",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#vendorName",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "DreamWeavers Inc.",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/vendor2",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "#Vendor",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/vendor2",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#vendorName",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Lucid Adventures Co.",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/vendor3",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "#Vendor",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/vendor3",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#vendorName",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Nocturnal Visions LLC",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/vendor4",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "#Vendor",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/vendor4",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#vendorName",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Oneironautics Collective",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/vendor5",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "#Vendor",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/vendor5",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#vendorName",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Morpheus Enterprises",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer1",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "#DreamOffer",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer1",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#name",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Epic Flying Adventure",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer1",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#description",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Experience unlimited flight through surreal landscapes",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer1",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#price",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "299",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer1",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#currency",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "USD",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer1",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#quantity",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "15",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer1",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#rating",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "4.8",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer1",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offeredBy",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/vendor1",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer2",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "#DreamOffer",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer2",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#name",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Lucid City Exploration",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer2",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#description",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Control your dream in a customizable city environment",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer2",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#price",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "199",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer2",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#currency",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "USD",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer2",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#quantity",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "8",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer2",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#rating",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "4.9",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer2",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offeredBy",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/vendor2",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer3",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "#DreamOffer",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer3",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#name",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Celestial Symphony",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer3",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#description",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Musical journey among the stars with enhanced synesthesia",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer3",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#price",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "349",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer3",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#currency",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "EUR",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer3",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#quantity",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "5",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer3",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#rating",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "4.7",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer3",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offeredBy",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/vendor3",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer4",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "#DreamOffer",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer4",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#name",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Basic Flying Package",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer4",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#description",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Simple flying experience with limited control",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer4",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#price",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "99",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer4",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#currency",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "USD",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer4",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#quantity",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "25",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer4",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#rating",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "3.9",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer4",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offeredBy",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/vendor1",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer5",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "#DreamOffer",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer5",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#name",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Dream Journal Starter",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer5",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#description",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Enhance dream recall and basic lucidity",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer5",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#price",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "49",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer5",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#currency",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "USD",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer5",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#quantity",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "50",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer5",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#rating",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "4.2",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer5",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offeredBy",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/vendor4",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer6",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "#DreamOffer",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer6",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#name",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Historical Reenactment",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer6",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#description",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Live through famous historical moments",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer6",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#price",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "249",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer6",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#currency",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "GBP",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer6",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#quantity",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "10",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer6",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#rating",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "4.5",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer6",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offeredBy",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/vendor5",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer7",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "#DreamOffer",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer7",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#name",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Underwater Metropolis",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer7",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#description",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Explore a thriving civilization beneath the waves",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer7",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#price",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "279",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer7",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#currency",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "USD",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer7",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#quantity",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "7",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer7",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#rating",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "4.6",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer7",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offeredBy",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/vendor3",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer8",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "#DreamOffer",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer8",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#name",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Shared Dream Experience",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer8",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#description",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Connect with 2-4 other dreamers in a shared space",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer8",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#price",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "599",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer8",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#currency",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "USD",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer8",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#quantity",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "3",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer8",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#rating",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "4.4",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer8",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offeredBy",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/vendor2",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer9",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "#DreamOffer",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer9",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#name",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Dream Artist Package",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer9",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#description",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Create art directly from your dream experiences",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer9",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#price",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "179",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer9",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#currency",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "EUR",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer9",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#quantity",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "12",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer9",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#rating",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "4.1",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer9",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offeredBy",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/vendor4",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer10",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "#DreamOffer",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer10",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#name",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Time Dilation Experiment",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer10",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#description",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Experience compressed or expanded time perception",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer10",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#price",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "399",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer10",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#currency",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "USD",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer10",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#quantity",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "4",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer10",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#rating",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "4.7",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer10",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offeredBy",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/vendor5",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer11",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "#DreamOffer",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer11",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#name",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Elemental Mastery",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer11",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#description",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Control fire, water, earth, and air in your dreams",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer11",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#price",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "229",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer11",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#currency",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "USD",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer11",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#quantity",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "9",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer11",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#rating",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "4.3",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer11",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offeredBy",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/vendor1",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer12",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "#DreamOffer",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer12",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#name",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Mythical Creatures Safari",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer12",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#description",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Encounter and interact with legendary beings",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer12",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#price",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "259",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer12",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#currency",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "GBP",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer12",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#quantity",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "6",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer12",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#rating",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "4.5",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer12",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offeredBy",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/vendor3",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer13",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "#DreamOffer",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer13",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#name",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Parallel Universe Tour",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer13",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#description",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Explore alternate versions of yourself in quantum realities",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer13",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#price",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "449",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer13",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#currency",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "USD",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer13",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#quantity",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "5",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer13",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#rating",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "4.6",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer13",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offeredBy",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/vendor5",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer14",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "#DreamOffer",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer14",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#name",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Memory Palace Construction",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer14",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#description",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Build an infinite mental library for perfect recall",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer14",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#price",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "189",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer14",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#currency",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "EUR",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer14",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#quantity",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "18",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer14",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#rating",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "4.3",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer14",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offeredBy",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/vendor4",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer15",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "#DreamOffer",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer15",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#name",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Collective Consciousness Connection",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer15",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#description",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Tap into the shared dreamspace of all humanity",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer15",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#price",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "399",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer15",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#currency",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "USD",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer15",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#quantity",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "4",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer15",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#rating",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "4.7",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer15",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offeredBy",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/vendor3",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer16",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "#DreamOffer",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer16",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#name",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Ancestral Wisdom Journey",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer16",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#description",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Receive guidance from ancestors in dream state",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer16",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#price",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "279",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer16",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#currency",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "GBP",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer16",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#quantity",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "8",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer16",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#rating",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "4.4",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer16",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offeredBy",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/vendor2",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer17",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "#DreamOffer",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer17",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#name",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Zero-Gravity Ballet",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer17",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#description",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Perform perfect dance maneuvers in weightlessness",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer17",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#price",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "329",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer17",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#currency",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "USD",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer17",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#quantity",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "6",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer17",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#rating",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "4.8",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer17",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offeredBy",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/vendor1",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer18",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "#DreamOffer",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer18",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#name",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Time Traveler's Lounge",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer18",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#description",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Socialize with visitors from different eras",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer18",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#price",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "369",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer18",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#currency",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "USD",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer18",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#quantity",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "3",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer18",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#rating",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "4.9",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer18",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offeredBy",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/vendor5",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer19",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "#DreamOffer",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer19",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#name",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Bilingual Dream Immersion",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer19",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#description",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Fluently speak and understand any language",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer19",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#price",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "219",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer19",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#currency",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "EUR",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer19",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#quantity",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "15",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer19",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#rating",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "4.2",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer19",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offeredBy",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/vendor4",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer20",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "#DreamOffer",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer20",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#name",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Architect's Paradise",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer20",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#description",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Design and inhabit impossible structures",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer20",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#price",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "289",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer20",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#currency",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "USD",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer20",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#quantity",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "9",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer20",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#rating",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "4.5",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer20",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offeredBy",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/vendor3",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer21",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "#DreamOffer",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer21",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#name",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Giant's Perspective",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer21",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#description",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Experience the world from 100-foot height",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer21",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#price",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "179",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer21",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#currency",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "USD",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer21",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#quantity",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "12",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer21",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#rating",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "4.1",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer21",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offeredBy",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/vendor2",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer22",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "#DreamOffer",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer22",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#name",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Microscopic Odyssey",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer22",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#description",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Explore the quantum realm at atomic scale",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer22",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#price",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "349",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer22",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#currency",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "USD",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer22",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#quantity",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "5",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer22",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#rating",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "4.7",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer22",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offeredBy",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/vendor1",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer23",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "#DreamOffer",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer23",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#name",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Emotion Alchemy",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer23",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#description",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Transform negative emotions into creative energy",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer23",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#price",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "239",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer23",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#currency",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "GBP",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer23",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#quantity",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "10",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer23",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#rating",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "4.3",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer23",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offeredBy",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/vendor5",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer24",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "#DreamOffer",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer24",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#name",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Celestial Navigation",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer24",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#description",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Sail cosmic currents using star constellations",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer24",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#price",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "419",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer24",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#currency",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "USD",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer24",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#quantity",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "4",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer24",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#rating",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "4.8",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer24",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offeredBy",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/vendor4",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer25",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "#DreamOffer",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer25",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#name",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Dream-to-Reality Translation",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer25",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#description",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Bring dream objects into waking consciousness",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer25",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#price",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "499",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer25",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#currency",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "USD",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer25",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#quantity",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "2",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer25",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#rating",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "4.9",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer25",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offeredBy",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/vendor3",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer26",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "#DreamOffer",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer26",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#name",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Elemental Avatar",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer26",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#description",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Merge with pure fire/water/air/earth energy",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer26",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#price",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "269",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer26",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#currency",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "EUR",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer26",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#quantity",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "7",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer26",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#rating",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "4.6",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer26",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offeredBy",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/vendor2",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer27",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "#DreamOffer",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer27",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#name",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Collective Problem Solving",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer27",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#description",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Collaborate with dreamers worldwide on challenges",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer27",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#price",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "389",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer27",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#currency",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "USD",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer27",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#quantity",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "5",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer27",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#rating",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "4.4",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer27",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offeredBy",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/vendor1",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer28",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "#DreamOffer",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer28",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#name",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Precognitive Training",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer28",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#description",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Develop genuine future-seeing abilities",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer28",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#price",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "579",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer28",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#currency",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "USD",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer28",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#quantity",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "3",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer28",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#rating",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "4.7",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer28",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offeredBy",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/vendor5",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer29",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "#DreamOffer",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer29",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#name",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Mythic Hero Journey",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer29",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#description",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Live through archetypal hero's journey scenarios",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer29",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#price",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "319",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer29",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#currency",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "GBP",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer29",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#quantity",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "6",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer29",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#rating",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "4.5",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer29",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offeredBy",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/vendor4",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer30",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "#DreamOffer",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer30",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#name",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Digital Dream Interface",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer30",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#description",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "Experience dreams with UI elements and controls",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer30",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#price",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "429",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer30",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#currency",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "USD",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer30",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#quantity",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "4",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer30",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#rating",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "4.8",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal"
+        }
+      
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/offer30",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offeredBy",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/vendor3",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/vendor1",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offers",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/offer1",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/vendor1",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offers",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/offer4",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/vendor1",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offers",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/offer11",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/vendor1",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offers",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/offer17",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/vendor1",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offers",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/offer22",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/vendor1",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offers",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/offer27",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/vendor2",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offers",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/offer2",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/vendor2",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offers",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/offer8",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/vendor2",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offers",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/offer16",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/vendor2",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offers",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/offer21",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/vendor2",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offers",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/offer26",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/vendor3",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offers",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/offer3",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/vendor3",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offers",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/offer7",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/vendor3",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offers",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/offer12",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/vendor3",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offers",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/offer15",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/vendor3",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offers",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/offer20",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/vendor3",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offers",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/offer25",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/vendor3",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offers",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/offer30",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/vendor4",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offers",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/offer5",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/vendor4",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offers",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/offer9",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/vendor4",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offers",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/offer14",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/vendor4",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offers",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/offer19",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/vendor4",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offers",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/offer24",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/vendor4",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offers",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/offer29",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/vendor5",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offers",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/offer6",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/vendor5",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offers",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/offer10",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/vendor5",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offers",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/offer13",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/vendor5",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offers",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/offer18",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/vendor5",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offers",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/offer23",
+        "type" : "uri"
+        }
+      },
+    {
+      "subject" : {
+        "value" : "dreams/instances/vendor5",
+        "type" : "uri"
+        },
+      "predicate" : {
+        "value" : "#offers",
+        "type" : "uri"
+        },
+      "object" : {
+        "value" : "dreams/instances/offer28",
+        "type" : "uri"
+        }
+      }
+    ]
+  }
