@@ -1,0 +1,139 @@
+databaseChangeLog:
+  - changeSet:
+      id: init
+      author: technosudo
+      changes:
+        - createTable:
+            tableName: item
+            columns:
+              - column:
+                  name: uuid
+                  type: uuid
+                  constraints:
+                    primaryKey: true
+                  defaultValueComputed: gen_random_uuid()
+              - column:
+                  name: vendor_uuid
+                  type: uuid
+              - column:
+                  name: name
+                  type: varchar(255)
+                  constraints:
+                    - constraint:
+                        nullable: false
+              - column:
+                  name: description
+                  type: text
+              - column:
+                  name: price
+                  type: integer
+                  constraints:
+                    nullable: false
+              - column:
+                  name: currency
+                  type: varchar(3)
+                  constraints:
+                    - constraint:
+                        nullable: false
+              - column:
+                  name: quantity
+                  type: integer
+                  constraints:
+                    nullable: false
+              - column:
+                  name: rating
+                  type: double precision
+                  defaultValue: 0.0
+  - changeSet:
+      id: 22
+      author: technosudo
+      changes:
+        - createTable:
+            tableName: tag
+            columns:
+              - column:
+                  name: tag
+                  type: VARCHAR(20)
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: name
+                  type: VARCHAR(20)
+                  constraints:
+                    nullable: false
+  - changeSet:
+      id: 33
+      author: technosudo
+      changes:
+        - createTable:
+            tableName: item_tag
+            columns:
+              - column:
+                  name: item_uuid
+                  type: UUID
+                  constraints:
+                    nullable: false
+                    references: item(uuid)
+                    foreignKeyName: fk_item_tag_item
+              - column:
+                  name: tag
+                  type: VARCHAR(20)
+                  constraints:
+                    nullable: false
+                    references: tag(tag)
+                    foreignKeyName: fk_item_tag_tag
+            constraints:
+              primaryKey:
+                columnNames: item_uuid, tag
+  - changeSet:
+      id: 44
+      author: technosudo
+      changes:
+        - createTable:
+            tableName: review
+            columns:
+              - column:
+                  name: uuid
+                  type: UUID
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+                  defaultValueComputed: gen_random_uuid()
+              - column:
+                  name: item_uuid
+                  type: UUID
+                  constraints:
+                    nullable: false
+                    references: item(uuid)
+                    foreignKeyName: fk_review_item
+              - column:
+                  name: user_uuid
+                  type: UUID
+                  constraints:
+                    nullable: false
+              - column:
+                  name: rating
+                  type: INTEGER
+                  constraints:
+                    nullable: false
+              - column:
+                  name: comment
+                  type: TEXT
+
+  - changeSet:
+      id: 55
+      author: technosudo
+      changes:
+        - createIndex:
+            tableName: item
+            indexName: idx_item_vendor
+            columns:
+              - column:
+                  name: vendor_uuid
+        - createIndex:
+            tableName: review
+            indexName: idx_review_item
+            columns:
+              - column:
+                  name: item_uuid

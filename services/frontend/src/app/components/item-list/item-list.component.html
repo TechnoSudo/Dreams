@@ -1,0 +1,44 @@
+<div class="container mt-4">
+  <h2 class="mb-4">Our Products</h2>
+
+  <div *ngIf="isLoading" class="text-center">
+    <div class="spinner-border text-primary" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+    <p>Loading products...</p>
+  </div>
+
+  <div *ngIf="error" class="alert alert-danger">
+    {{ error }}
+    <button class="btn btn-sm btn-outline-danger ms-2" (click)="loadItems()">Retry</button>
+  </div>
+
+  <div class="row" *ngIf="!isLoading && !error">
+    <div class="col-md-4 mb-4" *ngFor="let item of items">
+      <div class="card h-100">
+        <div class="card-body">
+          <h5 class="card-title">{{ item.name }}</h5>
+          <p class="card-text text-muted">{{ item.description }}</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <span class="text-primary fw-bold">
+              {{ item.price / 100 | currency:item.currency }}
+            </span>
+            <div>
+              <span class="badge bg-warning text-dark me-2">
+                <i class="bi bi-star-fill"></i> {{ item.rating }}
+              </span>
+              <span class="badge bg-success">
+                {{ item.quantity }} in stock
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer bg-transparent">
+          <button class="btn btn-primary w-100" (click)="viewItemDetails(item.uuid)">
+            View Details
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

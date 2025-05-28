@@ -1,0 +1,36 @@
+spring.application.name: gateway
+server.port: 8000
+
+management:
+  endpoint.gateway.enabled: true
+  endpoints.web.exposure.include: gateway
+
+spring:
+  security.oauth2:
+    client:
+      provider.techstructure-keycloak:
+        issuer-uri: "http://auth-keycloak:8080/realms/Techstructure"
+      registration.techstructure-keycloak:
+        redirect-uri: "{baseUrl}/login/oauth2/code/{registrationId}"
+        client-id: wearecooking-gateway
+        client-secret: V29yXZ58bLpC3cDQmmDdHSlvzsYlRvBk
+        provider: techstructure-keycloak
+        authorization-grant-type: authorization_code
+        scope: openid,profile,email
+  cloud:
+    gateway:
+      routes:
+        - id: test
+          uri: "http://wrc-test:8030"
+          predicates:
+            - Path=/test/**
+        #          filters:
+        #            - AuthFilter
+        - id: userinfo
+          uri: "http://wrc-userinfo:8031"
+          predicates:
+            - Path=/api/userinfo/**
+#        - id: <name>
+#          uri: "http://localhost:<host port in .env>"
+#          predicates:
+#            - Path=/api/<abc>/**

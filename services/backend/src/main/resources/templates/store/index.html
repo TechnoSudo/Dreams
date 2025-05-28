@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dreams Store</title>
+    <link rel="stylesheet" href="/webjars/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="/store">Dreams Store</a>
+        <div class="d-flex">
+            <a href="/store/add-item" class="btn btn-outline-light me-2">Add Item</a>
+            <a href="/store/cart" class="btn btn-outline-light me-2">Cart</a>
+        </div>
+    </div>
+</nav>
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card mb-4">
+                <div class="card-header">
+                    Filters
+                </div>
+                <div class="card-body">
+                    <form th:action="@{/store}" method="get">
+                        <div class="mb-3">
+                            <label for="records" class="form-label">Items to show</label>
+                            <input type="number" class="form-control" id="records" name="records" th:value="${param.records != null ? param.records[0] : 10}">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Apply</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-9">
+            <div class="row">
+                <div th:each="item : ${items}" class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title" th:text="${item.name}">Item Name</h5>
+                            <p class="card-text" th:text="${item.description}">Item description...</p>
+                            <p class="card-text">
+                                <strong th:text="${item.price + ' ' + item.currency}">$10.00</strong>
+                                <span class="badge bg-success ms-2" th:text="'Rating: ' + ${item.rating}">5.0</span>
+                            </p>
+                            <a th:href="@{/store/item/{uuid}(uuid=${item.uuid})}" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="/webjars/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
