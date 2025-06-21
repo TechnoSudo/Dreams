@@ -3,7 +3,7 @@ services:
     container_name: "wrc-db"
     image: postgres:17
     ports:
-      - "$WRC_DB:5432"
+      - "5432:5432"
     environment:
       POSTGRES_DB: wrc
       POSTGRES_USER: admin

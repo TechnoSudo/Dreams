@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Item - Dreams Store</title>
+    <link rel="stylesheet" href="/webjars/bootstrap/5.3.0/css/bootstrap.min.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="/store">Dreams Store</a>
+        <div class="d-flex">
+            <a href="/store/add-item" class="btn btn-outline-light me-2">Add Item</a>
+            <a href="#" class="btn btn-outline-light me-2">Cart</a>
+        </div>
+    </div>
+</nav>
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">
+                    <h3>Add New Item</h3>
+                </div>
+                <div class="card-body">
+                    <form id="itemForm">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Item Name</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="description" class="form-label">Description</label>
+                            <textarea class="form-control" id="description" rows="3" required></textarea>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="price" class="form-label">Price</label>
+                                <input type="number" class="form-control" id="price" min="0" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="currency" class="form-label">Currency</label>
+                                <select class="form-select" id="currency" required>
+                                    <option value="USD">USD</option>
+                                    <option value="EUR">EUR</option>
+                                    <option value="GBP">GBP</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="quantity" class="form-label">Quantity in Stock</label>
+                            <input type="number" class="form-control" id="quantity" min="0" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Add Item</button>
+                        <a href="/store" class="btn btn-outline-secondary">Cancel</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="/webjars/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+<script>
+    document.getElementById('itemForm').addEventListener('submit', async function(e) {
+        e.preventDefault();
+
+        const itemData = {
+            name: document.getElementById('name').value,
+            description: document.getElementById('description').value,
+            price: parseInt(document.getElementById('price').value),
+            currency: document.getElementById('currency').value,
+            quantity: parseInt(document.getElementById('quantity').value)
+        };
+
+        try {
+            const response = await fetch('/api/items', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(itemData)
+            });
+
+            if (response.ok) {
+                const item = await response.json();
+                window.location.href = `/store/item/${item.uuid}?added=true`;
+            } else {
+                alert('Error adding item');
+            }
+        } catch (error) {
+            console.error('Error:', error);
+            alert('Error adding item');
+        }
+    });
+</script>
+</body>
+</html>

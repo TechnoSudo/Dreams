@@ -2,5 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$USER_HOME$/DATA/Projects/Web/dsada/Dreams" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lab5/latex/obsidian-template" vcs="Git" />
   </component>
 </project>

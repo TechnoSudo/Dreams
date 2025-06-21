@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title th:text="${item.name} + ' - Dreams Store'">Item Details</title>
+    <link rel="stylesheet" href="/webjars/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <script type="application/ld+json" th:utext="${@jsonUtil.toJson(jsonLd)}"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="/store">Dreams Store</a>
+        <div class="d-flex">
+            <a href="#" class="btn btn-outline-light me-2">Cart</a>
+        </div>
+    </div>
+</nav>
+
+<div class="container mt-4">
+    <div th:if="${param.addedToCart}" class="alert alert-success">
+        Item added to cart successfully!
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <div vocab="https://schema.org/" typeof="Product">
+                        <h2 class="card-title" property="name" th:text="${item.name}">Item Name</h2>
+                        <meta property="sku" th:content="${item.uuid}" />
+                        <meta property="image" th:content="${item.imageUrl}" />
+                        <p class="card-text" property="description" th:text="${item.description}">Item description...</p>
+                        <p class="h4">
+                            <span property="offers" typeof="Offer">
+                                <span property="price" th:text="${item.price}">0.00</span>
+                                <span property="priceCurrency" th:text="${item.currency}">USD</span>
+                                <meta property="availability" th:content="${item.quantity > 0 ? 'https://schema.org/InStock' : 'https://schema.org/OutOfStock'}" />
+                            </span>
+                        </p>
+
+                        <div property="aggregateRating" typeof="AggregateRating">
+                            <meta property="ratingValue" th:content="${item.rating}" />
+                            <meta property="ratingCount" th:content=12 />
+                            <span class="badge bg-success" th:text="'Rating: ' + ${item.rating}">3.0</span>
+                        </div>
+                    </div>
+
+                    <form th:action="@{/store/item/{uuid}/add-to-cart(uuid=${item.uuid})}" method="post">
+                        <input type="hidden" name="itemUuid" th:value="${item.uuid}">
+                        <div class="mb-3">
+                            <label for="quantity" class="form-label">Quantity</label>
+                            <input type="number" class="form-control" id="quantity" name="quantity"
+                                   th:value="${addToCartDto.quantity}" min="1" th:max="${item.quantity}">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Add to Cart</button>
+                        <a href="/store" class="btn btn-outline-secondary">Back to Store</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h3>Reviews</h3>
+                </div>
+                <div class="card-body">
+                    <div th:if="${reviews.isEmpty()}" class="alert alert-info">
+                        No reviews yet. Be the first to review!
+                    </div>
+
+                    <div th:each="review : ${reviews}" typeof="Review" vocab="https://schema.org/">
+                        <div property="reviewRating" typeof="Rating">
+                            <meta property="ratingValue" th:content="${review.rating}" />
+                            <meta property="bestRating" content="5" />
+                            <strong th:text="'Rating: ' + ${review.rating} + '/5'">Rating: 5/5</strong>
+                        </div>
+                        <p property="reviewBody" th:text="${review.comment}">Great product!</p>
+                        <div property="author" typeof="Person">
+                            <span property="name">User</span>
+                        </div>
+
+                        <div property="itemReviewed" typeof="Product">
+                            <span property="name" th:text="${item.name}"></span>
+                            <meta property="sku" th:content="${item.uuid}">
+                            <div property="aggregateRating" typeof="AggregateRating">
+                                <meta property="ratingValue" th:content="${item.rating}" />
+                                <meta property="ratingCount" th:content="12" /> </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-4">
+                        <h4>Add Your Review</h4>
+                        <div th:if="${successMessage}" class="alert alert-success" th:text="${successMessage}"></div>
+                        <div th:if="${errorMessage}" class="alert alert-danger" th:text="${errorMessage}"></div>
+                        <form th:action="@{/store/item/{uuid}/add-review(uuid=${item.uuid})}" method="post" th:object="${createReviewDto}">
+                        <div class="mb-3">
+                                <label for="rating" class="form-label">Rating (1-5)</label>
+                                <input type="number" class="form-control" id="rating"
+                                       th:field="*{rating}" min="1" max="5" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="comment" class="form-label">Comment</label>
+                                <textarea class="form-control" id="comment"
+                                          th:field="*{comment}" rows="3" maxlength="500"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit Review</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="/webjars/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

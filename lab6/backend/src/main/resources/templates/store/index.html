@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dreams Store</title>
+    <link rel="stylesheet" href="/webjars/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+
+    <script type="application/ld+json" th:utext="${@jsonUtil.toJson(jsonLd)}"></script>
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="/store">Dreams Store</a>
+        <div class="d-flex">
+            <a href="/store/add-item" class="btn btn-outline-light me-2">Add Item</a>
+            <a href="/store/cart" class="btn btn-outline-light me-2">Cart</a>
+        </div>
+    </div>
+</nav>
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card mb-4">
+                <div class="card-header">
+                    Filters
+                </div>
+                <div class="card-body">
+                    <form th:action="@{/store}" method="get">
+                        <div class="mb-3">
+                            <label for="records" class="form-label">Items to show</label>
+                            <input type="number" class="form-control" id="records" name="records" th:value="${param.records != null ? param.records[0] : 10}">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Apply</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-9">
+            <div class="row">
+                <div th:each="item : ${items}" class="col-md-4 mb-4">
+                    <div class="card h-100" vocab="https://schema.org/" typeof="Product">
+                        <div class="card-body">
+                            <img th:src="${item.imageUrl}" class="card-img-top mb-3" property="image" alt="Product image" />
+                            <h5 class="card-title" property="name" th:text="${item.name}">Item Name</h5>
+                            <p class="card-text" property="description" th:text="${item.description}">Item description...</p>
+                            <p class="card-text">
+                                <strong property="offers" typeof="Offer">
+                                    <span property="price" th:text="${item.price}">10.00</span>
+                                    <span property="priceCurrency" th:text="${item.currency}">USD</span>
+                                </strong>
+                                <span property="aggregateRating" typeof="AggregateRating">
+                                    Rating: <span property="ratingValue" th:text="${item.rating}">4.5</span> /
+                                    <span property="bestRating">5</span>
+                                    from <span property="ratingCount">12</span> reviews
+                                </span>
+                            </p>
+                            <a th:href="@{/store/item/{uuid}(uuid=${item.uuid})}" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="/webjars/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
